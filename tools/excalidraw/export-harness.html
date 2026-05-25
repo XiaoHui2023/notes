@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Excalidraw export harness</title>
+    <script src="./node_modules/@excalidraw/utils/dist/excalidraw-utils.min.js"></script>
+  </head>
+  <body>
+    <script>
+      window.exportSceneToPngBase64 = async (scene) => {
+        const svg = await ExcalidrawUtils.exportToSvg({
+          elements: scene.elements,
+          appState: { ...scene.appState, exportBackground: true },
+          files: scene.files ?? {},
+          exportPadding: 24,
+        });
+        const svgString =
+          typeof svg === "string"
+            ? svg
+            : svg?.outerHTML ?? new XMLSerializer().serializeToString(svg);
+
+        const blob = new Blob([svgString], { type: "image/svg+xml" });
+        const url = URL.createObjectURL(blob);
+        const img = new Image();
+        await new Promise((resolve, reject) => {
+          img.onload = resolve;
+          img.onerror = reject;
+          img.src = url;
+        });
+        const scale = 960 / Math.max(img.width, 1);
+        const canvas = document.createElement("canvas");
+        canvas.width = Math.ceil(img.width * scale);
+        canvas.height = Math.ceil(img.height * scale);
+        const ctx = canvas.getContext("2d");
+        ctx.fillStyle = scene.appState?.viewBackgroundColor ?? "#fffef8";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+        URL.revokeObjectURL(url);
+        return canvas.toDataURL("image/png").split(",")[1];
+      };
+    </script>
+  </body>
+</html>

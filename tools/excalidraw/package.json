@@ -1,0 +1,9 @@
+{
+  "name": "notes-excalidraw-tools",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@excalidraw/utils": "^0.1.2",
+    "playwright": "^1.52.0"
+  }
+}

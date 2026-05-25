@@ -1,0 +1,237 @@
+[
+  {
+    "type": "rectangle",
+    "x": 0,
+    "y": 20,
+    "width": 80,
+    "height": 44,
+    "roughness": 1,
+    "roundness": {
+      "type": 3
+    },
+    "strokeColor": "#475569",
+    "backgroundColor": "#cbd5e1",
+    "fillStyle": "solid",
+    "strokeWidth": 2,
+    "opacity": 100,
+    "angle": 0,
+    "id": "laptop-ide-0"
+  },
+  {
+    "type": "rectangle",
+    "x": 6,
+    "y": 26,
+    "width": 68,
+    "height": 32,
+    "roughness": 1,
+    "roundness": {
+      "type": 3
+    },
+    "strokeColor": "#0f172a",
+    "backgroundColor": "#1e293b",
+    "fillStyle": "solid",
+    "strokeWidth": 2,
+    "opacity": 100,
+    "angle": 0,
+    "id": "laptop-ide-1"
+  },
+  {
+    "type": "text",
+    "x": 18,
+    "y": 36,
+    "width": 44,
+    "height": 20,
+    "text": "{ IDE }",
+    "fontSize": 12,
+    "fontFamily": 1,
+    "strokeColor": "#94a3b8",
+    "roughness": 1,
+    "textAlign": "center",
+    "verticalAlign": "top",
+    "id": "laptop-ide-2"
+  },
+  {
+    "type": "rectangle",
+    "x": -4,
+    "y": 62,
+    "width": 88,
+    "height": 10,
+    "roughness": 1,
+    "roundness": {
+      "type": 3
+    },
+    "strokeColor": "#64748b",
+    "backgroundColor": "#94a3b8",
+    "fillStyle": "solid",
+    "strokeWidth": 2,
+    "opacity": 100,
+    "angle": 0,
+    "id": "laptop-ide-3"
+  },
+  {
+    "type": "ellipse",
+    "x": 20,
+    "y": 0,
+    "width": 44,
+    "height": 36,
+    "roughness": 1,
+    "strokeColor": "#ea580c",
+    "backgroundColor": "#ffedd5",
+    "fillStyle": "solid",
+    "strokeWidth": 2,
+    "opacity": 100,
+    "angle": 0,
+    "id": "laptop-ide-4"
+  },
+  {
+    "type": "text",
+    "x": 28,
+    "y": 12,
+    "width": 28,
+    "height": 21,
+    "text": "=^.^=",
+    "fontSize": 13,
+    "fontFamily": 1,
+    "strokeColor": "#c2410c",
+    "roughness": 1,
+    "textAlign": "center",
+    "verticalAlign": "top",
+    "id": "laptop-ide-5"
+  },
+  {
+    "type": "ellipse",
+    "x": 16,
+    "y": 28,
+    "width": 8,
+    "height": 8,
+    "roughness": 1,
+    "strokeColor": "#f87171",
+    "backgroundColor": "#fecaca",
+    "fillStyle": "solid",
+    "strokeWidth": 2,
+    "opacity": 100,
+    "angle": 0,
+    "id": "laptop-ide-6"
+  },
+  {
+    "type": "ellipse",
+    "x": 52,
+    "y": 28,
+    "width": 8,
+    "height": 8,
+    "roughness": 1,
+    "strokeColor": "#f87171",
+    "backgroundColor": "#fecaca",
+    "fillStyle": "solid",
+    "strokeWidth": 2,
+    "opacity": 100,
+    "angle": 0,
+    "id": "laptop-ide-7"
+  },
+  {
+    "type": "ellipse",
+    "x": 8,
+    "y": 8,
+    "width": 14,
+    "height": 14,
+    "roughness": 1,
+    "strokeColor": "#ea580c",
+    "backgroundColor": "#ffedd5",
+    "fillStyle": "solid",
+    "strokeWidth": 2,
+    "opacity": 100,
+    "angle": 0,
+    "id": "laptop-ide-8"
+  },
+  {
+    "type": "ellipse",
+    "x": 54,
+    "y": 8,
+    "width": 14,
+    "height": 14,
+    "roughness": 1,
+    "strokeColor": "#ea580c",
+    "backgroundColor": "#ffedd5",
+    "fillStyle": "solid",
+    "strokeWidth": 2,
+    "opacity": 100,
+    "angle": 0,
+    "id": "laptop-ide-9"
+  },
+  {
+    "type": "arrow",
+    "x": 28,
+    "y": 56,
+    "width": -8,
+    "height": 6,
+    "points": [
+      [
+        0,
+        0
+      ],
+      [
+        -8,
+        6
+      ]
+    ],
+    "strokeColor": "#ea580c",
+    "roughness": 1,
+    "strokeWidth": 2,
+    "startArrowhead": null,
+    "endArrowhead": null,
+    "id": "laptop-ide-10"
+  },
+  {
+    "type": "arrow",
+    "x": 48,
+    "y": 56,
+    "width": 8,
+    "height": 6,
+    "points": [
+      [
+        0,
+        0
+      ],
+      [
+        8,
+        6
+      ]
+    ],
+    "strokeColor": "#ea580c",
+    "roughness": 1,
+    "strokeWidth": 2,
+    "startArrowhead": null,
+    "endArrowhead": null,
+    "id": "laptop-ide-11"
+  },
+  {
+    "type": "ellipse",
+    "x": 62,
+    "y": 48,
+    "width": 16,
+    "height": 16,
+    "roughness": 1,
+    "strokeColor": "#ca8a04",
+    "backgroundColor": "#fef08a",
+    "fillStyle": "solid",
+    "strokeWidth": 2,
+    "opacity": 100,
+    "angle": 0,
+    "id": "laptop-ide-12"
+  },
+  {
+    "type": "text",
+    "x": 64,
+    "y": 52,
+    "width": 12,
+    "height": 20,
+    "text": "★",
+    "fontSize": 12,
+    "fontFamily": 1,
+    "strokeColor": "#a16207",
+    "roughness": 1,
+    "textAlign": "center",
+    "verticalAlign": "top",
+    "id": "laptop-ide-13"
+  }
+]

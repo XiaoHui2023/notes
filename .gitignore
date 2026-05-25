@@ -1,0 +1,11 @@
+# Cursor IDE 本地状态（保留项目内 skill 三件套）
+.cursor/*
+!.cursor/skills/
+!.cursor/skills/**
+# 各小仓库内 skill（如 ai/instruction/.cursor/skills/）
+**/.cursor/*
+!**/.cursor/skills/
+!**/.cursor/skills/**
+
+# Excalidraw 工具依赖（脚本在 tools/excalidraw/）
+tools/excalidraw/node_modules/
