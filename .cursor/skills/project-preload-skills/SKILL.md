@@ -25,12 +25,4 @@ description: notes 仓库根：会话预加载顺序与用过的 skill 记录。
 
 ## 用过的 skill（追加记录）
 
-- `excalidraw-diagram` — instruction 配图（coleam 方法论 + `tools/excalidraw/generate-instruction-coleam.mjs`）
-
-## 配图会话额外加载
-
-修改 `src/ai/instruction/diagrams` 或 `assets` 时追加 Read：
-
-1. `.cursor/skills/excalidraw-diagram/SKILL.md`
-2. `.cursor/skills/excalidraw-diagram/references/color-palette.md`
-3. `src/ai/instruction/.cursor/skills/instruction-design-notes/SKILL.md`
+（无。）

@@ -6,6 +6,3 @@
 **/.cursor/*
 !**/.cursor/skills/
 !**/.cursor/skills/**
-
-# Excalidraw 工具依赖（脚本在 tools/excalidraw/）
-tools/excalidraw/node_modules/

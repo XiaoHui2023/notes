@@ -17,6 +17,6 @@ description: notes/ai/instruction 小仓库：会话预加载顺序与用过的 
 
 ## 用过的 skill（追加记录）
 
-- `~/.cursor/skills/excalidraw/SKILL.md`（配图风格、箭头、导出、tools 路径）
+- `~/.cursor/skills/user-markdown-habits-zh/SKILL.md`（作者叙事与段落习惯）
 - `~/.cursor/skills/markdown-authoring-zh/SKILL.md`（讲义与演讲提纲、成稿自检）
 - `~/.cursor/skills/module-readme/SKILL.md`（兼作宣讲 README 交叉引用）
