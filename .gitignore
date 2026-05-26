@@ -1,8 +1,3 @@
-# Cursor IDE 本地状态（保留项目内 skill 三件套）
-.cursor/*
-!.cursor/skills/
-!.cursor/skills/**
-# 各小仓库内 skill（如 ai/instruction/.cursor/skills/）
-**/.cursor/*
-!**/.cursor/skills/
-!**/.cursor/skills/**
+# Cursor IDE 本地状态（含仓库根与各小仓库 .cursor/skills/，均不入 Git）
+.cursor/
+**/.cursor/
